@@ -1,21 +1,14 @@
 package com.demoqa.tests;
 
-import com.codeborne.selenide.Configuration;
 import com.demoqa.pages.RegistrationPage;
 import com.github.javafaker.Faker;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 
-public class StudentRegistrationFormTest {
+public class StudentRegistrationFormTest extends TestBase{
 
     Faker faker = new Faker();
     RegistrationPage registrationPage = new RegistrationPage();
-
-    @BeforeAll
-    static void setUp() {
-        Configuration.startMaximized = true;
-    }
 
     @Test
     void fillFormStudentRegistration() {

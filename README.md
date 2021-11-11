@@ -6,3 +6,4 @@
      - Убедитесь, что в списке страниц (Pages) есть страница SoftAssertions
      - Откройте страницу SoftAssertions, проверьте что внутри есть пример кода для JUnit5
 3) Разработан автотест на [перенос прямоугольника А на место В](https://the-internet.herokuapp.com/drag_and_drop)
+4) Добавлены аттачи для Allure – скриншот, page source, console.log и видео
